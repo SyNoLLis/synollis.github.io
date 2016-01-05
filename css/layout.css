@@ -81,7 +81,7 @@ Home (Header) Section
     width:100%;
     height: auto;
     color:#ffffff;
-    margin: 20px auto;
+    margin: 20 auto;
 }
 .text-slides li:last-child{clear: both;}
 
