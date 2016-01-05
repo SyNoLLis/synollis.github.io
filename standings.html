@@ -1,160 +1,100 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-
-
     <meta charset="utf-8" />
-
     <title>The Imperial Network</title>
-
     <meta name="description" content="" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-
-
     <!--Favicon -->
-
     <link rel="icon" type="image/png" href="images/favicon.ico" />
 
-
-
     <!-- CSS Files -->
-
     <link rel="stylesheet" href="css/reset.css" />
-
     <link rel="stylesheet" href="css/animate.min.css" />
-
     <link rel="stylesheet" href="css/grid.css" />
-
     <link rel="stylesheet" href="css/base.css" />
-
     <link rel="stylesheet" href="css/layout.css" />
-
     <link rel="stylesheet" href="css/flexslider.css" />
-
     <link rel="stylesheet" href="css/font-awesome.css" />
-
     <link rel="stylesheet" href="css/prettyPhoto.css" />
-
     <link rel="stylesheet" href="css/player/YTPlayer.css" />
-
     <link rel="stylesheet" href="css/media-queries.css" />
 
 
-
     <!-- Color Options -->
-
     <link id="color-options" rel="stylesheet" href="css/colors/white.css" />
 
-
-
     <!-- Theme Options -->
+    <link id="theme-options" rel="stylesheet" href="css/theme/dark.css" />
 
-    <link id="theme-options" rel="stylesheet" href="css/theme/light.css" />
-
-
-
-
-
+    <!-- Options Panel Styles (remove me for production) -->
+    <link rel="stylesheet" href="panel/options-panel.css" />
 </head>
 
-
-
 <body>
-
 <!-- Navigation -->
-
 <section id="navigation" class="hide-nav">
-
     <!-- Navigation Container -->
-
     <div class="nav-container">
         <img src="images/imperial/logo-32.png">
         <p class="nav-text">THE IMPERIAL NETWORK</p>
         <!-- Site Logo -->
         <a href="#home" class="site-logo scroll"></a>
-
-
-
         <a class="mobile-nav-button"><i class="fa fa-bars"></i></a>
-
-
-
         <!-- Navigation Menu -->
-
         <div class="nav-menu">
-
             <ul class="nav">
-
                 <li><a href="index.html" class="scroll link">Home</a></li>
-
                 <li><a href="index.html#about" class="scroll link">About</a></li>
-
                 <!--<li><a href="#services" class="scroll link">Services</a></li>-->
-
                 <li><a href="index.html#team" class="scroll link">Team</a></li>
-
                 <li><a href="index.html#network" class="scroll link">Network</a></li>
-
                 <li><a href="tournaments.html#accordion" class="scroll link">Tournaments</a></li>
                 <li><a href="standings.html">Standings</a></li>
                 <li><a href="guides.html">Guides</a></li>
                 <!--<li><a href="#aeg" class="scroll link">Team</a></li>-->
-
             </ul>
-
         </div><!-- end nav menu -->
-
     </div><!-- end nav container -->
-
 </section><!-- end navigation section -->
 
 
 <!-- Home Section -->
-
 <section id="home" class="home parallax6">
-
     <div id="slides" class="container header">
-
         <!-- Site Logo -->
-
         <img src="images/imperial/logo.png">
-
         <!-- Text Slider -->
-
         <div class="header-text">
-
             <ul class="text-slider">
-
                 <li class="text-slides"><span class="color normal">Ambitious</span></li>
-
                 <li class="text-slides"><span class="color normal">Interactive</span></li>
-
                 <li class="text-slides"><span class="color normal">Collaborative</span></li>
-
             </ul>
-
         </div><!-- end text slider -->
-
-        <p style="z-index: 99999; color: #fff">A GROWING PVP SCENE IN BLADE AND SOUL HOPING TO INTIATE AND BRING BLADE AND SOUL TO THE EU AND NA E-SPORT TABLES</p>
-
+        <p style="z-index: 99999; color: #fff; font-weight:700; text-shadow: 0px 0px 3px #000000"; >A GROWING PVP SCENE IN BLADE AND SOUL HOPING TO INTIATE AND BRING BLADE AND SOUL TO THE EU AND NA E-SPORT TABLES</p>
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <h4>Spread the Word</h4>
+            <ul class="social-links">
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-facebook.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-twitter.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-vimeo.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-googleplus.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-youtube-2.png" alt=""></a></li>
+            </ul>
+        </div><!-- end social media links -->
         <a href="#about" class="header-down-arrow scroll link"></a>
-
     </div><!-- end header container -->
-
 </section><!-- end home section -->
-
 
 
 <!-- Standings -->
 
 <!-- End standings -->
 
-
+<!--
 <section id="footer-top" class="section">
     <div class="container">
         <ul class="social-links">
@@ -163,9 +103,10 @@
             <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul><!-- end social links -->
-    </div><!-- end container -->
+        </ul><!-- end social links
+    </div><!-- end container
 </section><!-- end footer top section -->
+
 
 <section id="footer-bottom" class="section">
     <div class="container">
@@ -178,35 +119,34 @@
     </div><!-- end container -->
 </section><!-- end footer bottom section -->
 
+<!-- Options Panel (remove me for production) -->
+<section id="options-panel" class="close-panel">
+    <!-- Panel Button -->
+    <a class="panel-button">Options</a>
+    <!-- Theme (Light Dark)-->
+    <div class="area">
+        <h5>Theme Options</h5>
+        <a title="dark" class="theme dark"></a>
+        <a title="light" class="theme light"></a>
+    </div><!-- end panel area -->
+</section><!-- end options panel -->
+
 <!-- All The JS Files -->
-
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-
 <script type="text/javascript" src="js/jquery.appear.js"></script>
-
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
-
 <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-
 <script type="text/javascript" src="js/jquery.superslides.js"></script>
-
 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
-
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
-
 <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-
 <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-
 <script type="text/javascript" src="js/jquery.countTo.js"></script>
-
 <script type="text/javascript" src="js/jquery.fs.tipper.js"></script>
-
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="panel/options-panel.js"></script>
 
 </body>
 

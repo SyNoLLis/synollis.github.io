@@ -20,3 +20,11 @@
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+
+#accordion{
+	background-color: #171717;
+}
+
+#guides {
+	background-color: #171717;
+}

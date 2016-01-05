@@ -65,7 +65,7 @@ Home (Header) Section
 }
 .header-text{
     background-image: url(../images/imperial/headtextbg.png);
-    padding: 24px 10px;
+    padding: 28px 10px;
     margin: 10px auto;
     width: 45%;
     margin-bottom: 56px;
@@ -81,7 +81,7 @@ Home (Header) Section
     width:100%;
     height: auto;
     color:#ffffff;
-    margin: 20 auto;
+    margin: 20px auto;
 }
 .text-slides li:last-child{clear: both;}
 
@@ -1229,6 +1229,7 @@ Blog
     
     background-color: #4c4c4c;
 }
+
 .post-preview{
     text-align: left;
 }
@@ -1537,8 +1538,9 @@ a.button-to-top:hover {color: #e74c3c;}
     background-image: url("../images/imperial/join-bg.png");
 }
 
-
 .blog-button {
+    margin: 30px auto;
+    width: 135px;
     background-color:transparent;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
@@ -1548,9 +1550,12 @@ a.button-to-top:hover {color: #e74c3c;}
     color:#ffffff;
     font-size:12px;
     font-weight: 700;
-    padding:12px 25px;
     text-decoration:none;
-    line-height: 60px;
+}
+.blog-button a {
+    padding: 20px;
+    display: block;
+    width: 100%;
 }
 .blog-button:hover {
     background-color: #fff;
@@ -1687,5 +1692,5 @@ table tr:hover td{
 
 /** Guides **/
 #guides {
-    background-color: #171717;
+    background-color: #3D3D3D;
 }

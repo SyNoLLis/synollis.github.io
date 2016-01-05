@@ -26,7 +26,9 @@
     <!-- Color Options -->
     <link id="color-options" rel="stylesheet" href="css/colors/white.css" />
     <!-- Theme Options -->
-    <link id="theme-options" rel="stylesheet" href="css/theme/light.css" />
+    <link id="theme-options" rel="stylesheet" href="css/theme/dark.css" />
+    <!-- Options Panel Styles (remove me for production) -->
+    <link rel="stylesheet" href="panel/options-panel.css" />
 </head>
 <body>
 
@@ -59,53 +61,49 @@
 
 <!-- Home Section -->
 <section id="home" class="home parallax6">
-
     <div id="slides" class="container header">
-
         <!-- Site Logo -->
-
         <img src="images/imperial/logo.png">
-
         <!-- Text Slider -->
-
         <div class="header-text">
-
             <ul class="text-slider">
-
                 <li class="text-slides"><span class="color normal">Ambitious</span></li>
-
                 <li class="text-slides"><span class="color normal">Interactive</span></li>
-
                 <li class="text-slides"><span class="color normal">Collaborative</span></li>
-
             </ul>
-
         </div><!-- end text slider -->
-
-        <p style="z-index: 99999; color: #fff">A GROWING PVP SCENE IN BLADE AND SOUL HOPING TO INTIATE AND BRING BLADE AND SOUL TO THE EU AND NA E-SPORT TABLES</p>
-
+        <p style="z-index: 99999; color: #fff; font-weight:700; text-shadow: 0px 0px 3px #000000"; >A GROWING PVP SCENE IN BLADE AND SOUL HOPING TO INTIATE AND BRING BLADE AND SOUL TO THE EU AND NA E-SPORT TABLES</p>
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <h4>Spread the Word</h4>
+            <ul class="social-links">
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-facebook.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-twitter.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-vimeo.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-googleplus.png" alt=""></a></li>
+                <li><a href="#"><img class="social-icons" src="images/social-icons/32-youtube-2.png" alt=""></a></li>
+            </ul>
+        </div><!-- end social media links -->
         <a href="#about" class="header-down-arrow scroll link"></a>
-
     </div><!-- end header container -->
-
 </section><!-- end home section -->
 
 
 <!-- Guides -->
 <section id="guides">
     <div class="container" >
-        <h2 class="title">Lost? Don't know how to play your class?</h2>
+        <h2 class="title">Looking to improve yourself?</h2>
         <h4 class="subtitle">We have you covered</h4>
         <div  id="tabbed-nav">
             <!-- Tab Navigation Menu -->
             <ul>
-                <li><a>Assassin<span>The art of stealth</span></a></li>
-                <li><a>Blade Master<span>The warrior</span></a></li>
-                <li><a>Blade Dancer<span>The blade dance</span></a></li>
-                <li><a>Force Master<span>Fire and Ice</span></a></li>
-                <li><a>KungFu Master<span>Weapon is my body</span></a></li>
-                <li><a>Destroyer<span>Feel my spin</span></a></li>
-                <li><a>Summoner<span>Nyaa ?</span></a></li>
+                <li><a>Assassin<span></span></a></li>
+                <li><a>Blade Master<span></span></a></li>
+                <li><a>Blade Dancer<span></span></a></li>
+                <li><a>Force Master<span></span></a></li>
+                <li><a>KungFu Master<span></span></a></li>
+                <li><a>Destroyer<span></span></a></li>
+                <li><a>Summoner<span></span></a></li>
             </ul>
 
             <!-- Content container -->
@@ -355,6 +353,7 @@
 </section>
 <!-- End Guides -->
 
+<!--
 <section id="footer-top" class="section">
     <div class="container">
         <ul class="social-links">
@@ -363,8 +362,8 @@
             <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul><!-- end social links -->
-    </div><!-- end container -->
+        </ul><!-- end social links
+    </div><!-- end container
 </section><!-- end footer top section -->
 
 <section id="footer-bottom" class="section">
@@ -377,7 +376,21 @@
             &copy; 2016 All rights reserved.</p>
     </div><!-- end container -->
 </section><!-- end footer bottom section -->
+<!-- Options Panel (remove me for production) -->
+<section id="options-panel" class="close-panel">
 
+    <!-- Panel Button -->
+    <a class="panel-button">Options</a>
+
+    <!-- Theme (Light Dark)-->
+    <div class="area">
+        <h5>Theme Options</h5>
+        <a title="dark" class="theme dark"></a>
+        <a title="light" class="theme light"></a>
+    </div><!-- end panel area -->
+
+
+</section><!-- end options panel -->
 <!-- All The JS Files -->
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -395,6 +408,7 @@
 <script type="text/javascript" src="js/jquery.fs.tipper.js"></script>
 <script type="text/javascript" src="js/zozo.tabs.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
 <script>
     jQuery(document).ready(function ($) {
         /* jQuery activation and setting options for parent tabs with id selector*/
@@ -432,6 +446,6 @@
         });
     });
 </script>
-
+<script type="text/javascript" src="panel/options-panel.js"></script>
 </body>
 </html>
