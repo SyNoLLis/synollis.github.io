@@ -875,6 +875,13 @@ ol.flex-control-paging li a.flex-active {
 /* Project Details */
 
 .project-desc {text-align: left;}
+.project-details p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.project-details h5 {
+    margin-top: 15px;
+}
 .project-details li{
     padding: 8px 0;
     border-bottom: 1px solid #3d3d3d;
@@ -886,6 +893,10 @@ ol.flex-control-paging li a.flex-active {
 }
 .project-desc a:hover {
     color: #f8f8f8;
+}
+
+.project-desc h4 {
+    font-weight: 300;
 }
 /* --------------------------------
 Counter Section
@@ -1568,11 +1579,23 @@ a.button-to-top:hover {color: #e74c3c;}
 
 .social-team li {
     margin: 10px;
-    float: left;
+
 }
 
 .social-team li i {
     font-size: 30px;
+}
+
+.guides-link:hover {
+    color: #ff252a;
+}
+
+.text-link {
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 table {border-spacing: 0; } /* IMPORTANT, I REMOVED border-collapse: collapse; FROM THIS LINE IN ORDER TO MAKE THE OUTER BORDER RADIUS WORK */
